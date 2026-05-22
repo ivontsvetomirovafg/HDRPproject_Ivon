@@ -1,0 +1,63 @@
+{
+    "version": 1,
+    "name": "Character",
+    "maps": [
+        {
+            "name": "Move",
+            "id": "38966192-d63b-4ae3-8d3a-3ca280a84041",
+            "actions": [
+                {
+                    "name": "New action",
+                    "type": "Button",
+                    "id": "50efda83-a4c2-4519-bf5e-7c480c9fbd9f",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "e29904c9-f796-483b-a103-d874ab3e7033",
+                    "path": "",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "New action",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        },
+        {
+            "name": "Look",
+            "id": "c27dff1d-8879-465e-b78c-761102a79b54",
+            "actions": [
+                {
+                    "name": "New action",
+                    "type": "Button",
+                    "id": "ca1b292a-751a-430a-844f-0e7b7a5f066d",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "56d48bc3-9b62-4e8e-b827-c515cf3c62d0",
+                    "path": "",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "New action",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
