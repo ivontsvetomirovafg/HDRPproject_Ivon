@@ -41,6 +41,7 @@ public class AudioManager : MonoBehaviour
         music.clip = crickets;
         music.volume = _volume;
         music.loop = true;
+        music.volume = 1f;
         music.Play();
     }
 
