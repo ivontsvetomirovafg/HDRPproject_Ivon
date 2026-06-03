@@ -12,6 +12,8 @@ public class AudioManager : MonoBehaviour
     private AudioSource music;
     [SerializeField] 
     private AudioClip sfxSteps;
+    [SerializeField]
+    private AudioClip sfxStepsMadera;
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
@@ -84,5 +86,10 @@ public class AudioManager : MonoBehaviour
     public void StopSteps()
     {
         steps.Stop();
+    }
+
+    public void SetSurface(AudioClip clip)
+    {
+        sfxSteps = clip;
     }
 }

@@ -215,7 +215,7 @@ MonoBehaviour:
     m_Value: 844.5
   meanFreePath:
     m_OverrideState: 1
-    m_Value: 35.6
+    m_Value: 30.8
   enableVolumetricFog:
     m_OverrideState: 1
     m_Value: 1
@@ -276,13 +276,13 @@ MonoBehaviour:
     m_Value: 1
   threshold:
     m_OverrideState: 1
-    m_Value: 21.3
+    m_Value: 20
   intensity:
     m_OverrideState: 1
     m_Value: 0.52
   scatter:
     m_OverrideState: 1
-    m_Value: 0.7
+    m_Value: 0.477
   tint:
     m_OverrideState: 1
     m_Value: {r: 1, g: 1, b: 1, a: 1}
