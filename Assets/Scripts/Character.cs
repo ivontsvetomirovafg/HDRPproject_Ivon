@@ -10,6 +10,13 @@ public class Character : MonoBehaviour
     private PlayerInput playerInput;
     private Rigidbody rb;
     private Transform cam;
+
+    public InputActionReference action;
+    private bool steps;
+    [SerializeField] 
+    private float iniciarPasos;
+
+
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
@@ -28,5 +35,27 @@ public class Character : MonoBehaviour
         rb.linearVelocity = new Vector3(move.x, rb.linearVelocity.y, move.z);
         cam.localEulerAngles += (new Vector3(inputLook.y * camSense * -1, 0, 0)) * Time.deltaTime;
         transform.localEulerAngles += (new Vector3(0, inputLook.x * camSense, 0)) * Time.deltaTime;
+
+        if (steps == false)
+        {
+            Vector2 input = action.action.ReadValue<Vector2>();
+
+            if (input.x >= iniciarPasos || input.x <= -iniciarPasos || input.y >= iniciarPasos || input.y <= -iniciarPasos)
+            {
+                steps = true;
+                Debug.Log("Reproducir pasos");
+                AudioManager.instance.PlaySteps(0.3f);
+            }
+        }
+        else
+        {
+            Vector2 input = action.action.ReadValue<Vector2>();
+
+            if (input.x >= -iniciarPasos && input.x <= iniciarPasos && input.y >= -iniciarPasos && input.y <= iniciarPasos)
+            {
+                AudioManager.instance.StopSteps();
+                steps = false;
+            }
+        }
     }
 }

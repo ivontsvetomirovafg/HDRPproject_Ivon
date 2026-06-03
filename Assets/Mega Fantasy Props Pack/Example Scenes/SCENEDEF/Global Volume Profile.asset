@@ -40,7 +40,7 @@ MonoBehaviour:
     m_Value: 1
   fixedExposure:
     m_OverrideState: 1
-    m_Value: 10.2398205
+    m_Value: 10.903415
   compensation:
     m_OverrideState: 0
     m_Value: 0
@@ -194,7 +194,7 @@ MonoBehaviour:
     m_Value: {r: 0.21057315, g: 0.21238476, b: 0.49056602, a: 1}
   tint:
     m_OverrideState: 1
-    m_Value: {r: 0.8113208, g: 0.63910645, b: 0.71976376, a: 1}
+    m_Value: {r: 1, g: 1, b: 1, a: 1}
   maxFogDistance:
     m_OverrideState: 1
     m_Value: 3951.1
@@ -215,19 +215,19 @@ MonoBehaviour:
     m_Value: 844.5
   meanFreePath:
     m_OverrideState: 1
-    m_Value: 35.05
+    m_Value: 35.6
   enableVolumetricFog:
     m_OverrideState: 1
     m_Value: 1
   albedo:
     m_OverrideState: 1
-    m_Value: {r: 0.49056602, g: 0.38180846, b: 0.44191128, a: 1}
+    m_Value: {r: 0.3207547, g: 0.19820221, b: 0.26823217, a: 1}
   globalLightProbeDimmer:
     m_OverrideState: 1
     m_Value: 1
   depthExtent:
     m_OverrideState: 1
-    m_Value: 43.5
+    m_Value: 40
   denoisingMode:
     m_OverrideState: 1
     m_Value: 2
@@ -1061,7 +1061,7 @@ MonoBehaviour:
     m_Value: 4
   cascadeShadowSplit0:
     m_OverrideState: 1
-    m_Value: 0.13132171
+    m_Value: 0.15354587
   cascadeShadowSplit1:
     m_OverrideState: 1
     m_Value: 0.15354587
